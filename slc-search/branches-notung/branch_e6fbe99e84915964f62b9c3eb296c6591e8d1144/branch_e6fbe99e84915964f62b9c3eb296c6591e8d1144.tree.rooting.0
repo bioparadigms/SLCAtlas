@@ -1,0 +1,3 @@
+(((TMEM184A_Q6ZMB5_Homo:0.17238245[&&NHX:S=Homo:Nset=<Homo>:H=N],(SLC51A_Q86UW1_Homo:3.39200119[&&NHX:S=Homo:Nset=<Homo>:H=N],TMEM184C_Q9NVA4_Homo:1.27477148[&&NHX:S=Homo:Nset=<Homo>:H=N])n8:0.74629203[&&NHX:S=Homo:Nset=<Homo>:H=N:D=Y:B=1.0])n4:0.35645632[&&NHX:S=Homo:Nset=<Homo>:H=N:D=Y:B=0.882],TMEM184B_Q9Y519_Homo:0.0288644[&&NHX:S=Homo:Nset=<Homo>:H=N])n2:0.015916[&&NHX:S=Homo:Nset=<Homo>:H=N:D=Y],Tmem184b_A0A0G2K0C2_Rattus:0.015916[&&NHX:S=Rattus:Nset=<Rattus>:H=N])n137[&&NHX:S=n22:Nset=<Rattus@Homo>:H=N:D=N];
+[&&NOTUNG-SPECIES-TREE(Rattus:4.0,Homo:4.0)n22]
+[&&NOTUNG-PARAMETERS:VERSION=2.7:SPECIESTAG=POST:CL=1.0:CD=1.5:CCD=0.0:CT=3.0]

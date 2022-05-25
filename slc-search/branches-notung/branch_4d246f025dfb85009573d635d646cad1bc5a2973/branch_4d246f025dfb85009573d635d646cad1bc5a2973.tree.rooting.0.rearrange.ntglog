@@ -1,0 +1,51 @@
+Log file which was probably generated for this command:
+java -jar Notung-2.9.1.5.jar -g branch_4d246f025dfb85009573d635d646cad1bc5a2973.tree.rooting.0 --rearrange --prune --speciestag postfix --maxtrees 20 --threshold 0.9 --log --parsable --treestats 
+| Reading gene tree file branch_4d246f025dfb85009573d635d646cad1bc5a2973.tree.rooting.0
+
+| **************************
+| * Unexpected Error in Notung.  Please feel free to email notung@cs.cmu.edu: 
+| * Cannot get children of an external node: 
+| * Seq name                : Drosophila
+| * EC number               : 
+| * Species                 : 
+| * Taxonomy ID             : n/a
+| * Distance to parent      : 4.0
+| * Bootstrap value         : n/a
+| * lnL on parent branch    : n/a
+| * L: Significantly worse  : true
+| * Duplication             : n/a
+| * Transfer                : n/a
+| * Sum of ext nodes : 1
+| * ID                      : 0
+| * ID of parent            : n/a (root or pseudo root)
+| * ID of child             : n/a (external node)
+| * 
+| * edu.cmu.cs.compbio.notung.throwables.UnexpectedError: Cannot get children of an external node: 
+| * Seq name                : Drosophila
+| * EC number               : 
+| * Species                 : 
+| * Taxonomy ID             : n/a
+| * Distance to parent      : 4.0
+| * Bootstrap value         : n/a
+| * lnL on parent branch    : n/a
+| * L: Significantly worse  : true
+| * Duplication             : n/a
+| * Transfer                : n/a
+| * Sum of ext nodes : 1
+| * ID                      : 0
+| * ID of parent            : n/a (root or pseudo root)
+| * ID of child             : n/a (external node)
+| * 
+| * 	at forester.tree.Node.getAllChildren(Node.java:2394)
+| * 	at forester.tree.Tree.<init>(Tree.java:451)
+| * 	at edu.cmu.cs.compbio.notung.NotungTree.readSpeciesTree(NotungTree.java:3930)
+| * 	at forester.tree.TreeHelper.extractNotungFormatSpeciesTree(TreeHelper.java:728)
+| * 	at edu.cmu.cs.compbio.notung.PreTree.readTree_submethod(PreTree.java:185)
+| * 	at edu.cmu.cs.compbio.notung.PreTree.readTree(PreTree.java:103)
+| * 	at NotungApp.readAllTrees(NotungApp.java:2093)
+| * 	at NotungApp.mainMethod(NotungApp.java:1331)
+| * 	at NotungApp.init(NotungApp.java:287)
+| * 	at NotungApp.main(NotungApp.java:198)
+| **************************
+| 
+| Writing log to file branch_4d246f025dfb85009573d635d646cad1bc5a2973.tree.rooting.0.rearrange.ntglog

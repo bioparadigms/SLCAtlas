@@ -1,0 +1,19 @@
+Log file which was probably generated for this command:
+java -jar Notung-2.9.1.5.jar -g branch_4a66cd5ff0e7dd423681d0a425744fabaa21785f.tree.rooting.0 --rearrange --prune --speciestag postfix --maxtrees 20 --threshold 0.9 --log --parsable --treestats 
+| Reading gene tree file branch_4a66cd5ff0e7dd423681d0a425744fabaa21785f.tree.rooting.0
+|  Contains embedded species tree
+| 	Using Dup cost from gene tree file because the cost was not specified
+| 	Using Co-Divergence cost from gene tree file because the cost was not specified
+| 	Using Transfer cost from gene tree file because the cost was not specified
+| 	Using Loss cost from gene tree file because the cost was not specified
+| 	Costs:   --costdup 1.5, --costloss 1.0
+| 
+| Reconciling branch_4a66cd5ff0e7dd423681d0a425744fabaa21785f.tree.rooting.0 with species tree from Notung Format file
+| Rearranging gene tree
+|  With --threshold 0.9
+|  1 optimal histories found, reporting up to 20 of them.  Use --maxtrees option to output more.
+| Saving branch_4a66cd5ff0e7dd423681d0a425744fabaa21785f.tree.rooting.0.rearrange.0
+|  Has 5 duplications and 1 losses, Event Score is 8.5
+| Saving tree statistics to branch_4a66cd5ff0e7dd423681d0a425744fabaa21785f.tree.rooting.0.rearrange.0.stats.txt
+| 
+| Writing log to file branch_4a66cd5ff0e7dd423681d0a425744fabaa21785f.tree.rooting.0.rearrange.ntglog

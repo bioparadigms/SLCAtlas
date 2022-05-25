@@ -1,0 +1,19 @@
+Log file which was probably generated for this command:
+java -jar Notung-2.9.1.5.jar -g branch_f9c572bf17bd60fba3a1c8dc4ab1768dcc10e483.tree -s ../7species.stree --root --prune --speciestag postfix --maxtrees 20 --allopt --log --parsable --treestats --rootscores 
+| Reading gene tree file branch_f9c572bf17bd60fba3a1c8dc4ab1768dcc10e483.tree
+| Reading species tree file ../7species.stree
+| 	Costs:   --costdup 1.5, --costloss 1.0
+| 
+| Reconciling branch_f9c572bf17bd60fba3a1c8dc4ab1768dcc10e483.tree with 7species.stree
+| Rooting gene tree
+| Saving branch_f9c572bf17bd60fba3a1c8dc4ab1768dcc10e483.tree.rooting.0
+| Saving tree statistics to branch_f9c572bf17bd60fba3a1c8dc4ab1768dcc10e483.tree.rooting.0.stats.txt
+| Saving parsable statistics to branch_f9c572bf17bd60fba3a1c8dc4ab1768dcc10e483.tree.rooting.0.parsable.txt
+|  Number of optimal roots: 1 out of 3
+|  Best rooting score: 1.5, worst rooting score: 2.5
+ All rooting scores: [1.5, 2.5, 2.5]
+ Outputing up to 20 rootings.  Use --maxtrees option to output more.
+ Has: 1 duplications and 0 losses, D/L score is 1.5
+
+| 
+| Writing log to file branch_f9c572bf17bd60fba3a1c8dc4ab1768dcc10e483.tree.rooting.ntglog

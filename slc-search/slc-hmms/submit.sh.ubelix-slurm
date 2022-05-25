@@ -1,0 +1,29 @@
+#!/bin/bash
+
+JOBNAME=slc-hmms
+
+OUTPUTDIR=$PWD/output
+
+mkdir -p $OUTPUTDIR
+
+N=300
+sbatch --array=1-$N << _EOF_
+#!/bin/bash
+
+#SBATCH --mail-user=gergely.gyimesi@dbmr.unibe.ch
+#SBATCH --mail-type=begin,fail,end
+#SBATCH --output=$OUTPUTDIR/slurm-%j.out
+#SBATCH --error=$OUTPUTDIR/slurm-%j.err
+#SBATCH --requeue
+#SBATCH --time=12:00:00
+#SBATCH --mem-per-cpu=4G
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --job-name=$JOBNAME
+
+#source $HOME/md-env/bin/activate
+
+python hhblits-all.py \$((\$SLURM_ARRAY_TASK_ID-1)) $N
+
+_EOF_
+

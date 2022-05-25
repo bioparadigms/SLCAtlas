@@ -1,0 +1,17 @@
+Homolog Table for: branch_f82ffa3c38487c9364b7b1a1a874c6f4490ff7d3.tree.rooting.0.rearrange.0
+P == Paralogous
+O == Orthologous
+	PX == Primary xenolog
+	SDX == Sibling donor xenolog
+	SRX == Sibling recipient xenolog
+	OX == Outgroup xenolog
+	IX == Incomparable xenolog
+	-X' == -autoxenolog
+	-Xp == -paraxenolog
+	* == Xenolog, but gene on X axis is not descendant of transfer recipient
+. == Genes on X and Y axis are the same.
+
+	Slc51b_Q80WK2_Mus	Slc51b_D3ZYJ2_Rattus	SLC51B_Q86UW2_Homo
+Slc51b_Q80WK2_Mus	.	O	O
+Slc51b_D3ZYJ2_Rattus	O	.	O
+SLC51B_Q86UW2_Homo	O	O	.

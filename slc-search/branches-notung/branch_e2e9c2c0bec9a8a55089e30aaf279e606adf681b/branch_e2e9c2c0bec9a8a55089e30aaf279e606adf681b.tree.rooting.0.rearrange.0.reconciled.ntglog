@@ -1,0 +1,15 @@
+Log file which was probably generated for this command:
+java -jar Notung-2.9.1.5.jar -g branch_e2e9c2c0bec9a8a55089e30aaf279e606adf681b.tree.rooting.0.rearrange.0 --reconcile --prune --speciestag postfix --maxtrees 20 --log --parsable --treestats --homologtabletabs 
+| Reading gene tree file branch_e2e9c2c0bec9a8a55089e30aaf279e606adf681b.tree.rooting.0.rearrange.0
+|  Contains embedded species tree
+| 	Using Dup cost from gene tree file because the cost was not specified
+| 	Using Co-Divergence cost from gene tree file because the cost was not specified
+| 	Using Transfer cost from gene tree file because the cost was not specified
+| 	Using Loss cost from gene tree file because the cost was not specified
+| 	Costs:   --costdup 1.5, --costloss 1.0
+| 
+| Reconciling branch_e2e9c2c0bec9a8a55089e30aaf279e606adf681b.tree.rooting.0.rearrange.0 with species tree from Notung Format file
+| Saving branch_e2e9c2c0bec9a8a55089e30aaf279e606adf681b.tree.rooting.0.rearrange.0.reconciled
+| Saving tree statistics to branch_e2e9c2c0bec9a8a55089e30aaf279e606adf681b.tree.rooting.0.rearrange.0.reconciled.stats.txt
+| 
+| Writing log to file branch_e2e9c2c0bec9a8a55089e30aaf279e606adf681b.tree.rooting.0.rearrange.0.reconciled.ntglog

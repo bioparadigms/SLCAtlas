@@ -1,0 +1,12 @@
+Log file which was probably generated for this command:
+java -jar Notung-2.9.1.5.jar -g branch_b1ac1fdc0ab0fb64644baba5f7fd868356d9f625.tree -s ../7species.stree --root --prune --speciestag postfix --maxtrees 20 --allopt --log --parsable --treestats --rootscores 
+| Reading gene tree file branch_b1ac1fdc0ab0fb64644baba5f7fd868356d9f625.tree
+| Reading species tree file ../7species.stree
+| 	Costs:   --costdup 1.5, --costloss 1.0
+| 
+| Reconciling branch_b1ac1fdc0ab0fb64644baba5f7fd868356d9f625.tree with 7species.stree
+| Rooting gene tree
+| Saving branch_b1ac1fdc0ab0fb64644baba5f7fd868356d9f625.tree.rooting.0
+| Saving tree statistics to branch_b1ac1fdc0ab0fb64644baba5f7fd868356d9f625.tree.rooting.0.stats.txt
+| 
+| Writing log to file branch_b1ac1fdc0ab0fb64644baba5f7fd868356d9f625.tree.rooting.ntglog

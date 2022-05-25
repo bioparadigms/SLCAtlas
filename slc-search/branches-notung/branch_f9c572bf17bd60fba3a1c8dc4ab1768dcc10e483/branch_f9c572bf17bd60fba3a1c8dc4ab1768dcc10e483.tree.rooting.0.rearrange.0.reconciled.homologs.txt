@@ -1,0 +1,17 @@
+Homolog Table for: branch_f9c572bf17bd60fba3a1c8dc4ab1768dcc10e483.tree.rooting.0.rearrange.0
+P == Paralogous
+O == Orthologous
+	PX == Primary xenolog
+	SDX == Sibling donor xenolog
+	SRX == Sibling recipient xenolog
+	OX == Outgroup xenolog
+	IX == Incomparable xenolog
+	-X' == -autoxenolog
+	-Xp == -paraxenolog
+	* == Xenolog, but gene on X axis is not descendant of transfer recipient
+. == Genes on X and Y axis are the same.
+
+	cax2_E7FCM1_Danio	cax1_Q1JQ55_Danio	LOC100859230_A0A1D5P503_Gallus
+cax2_E7FCM1_Danio	.	P	O
+cax1_Q1JQ55_Danio	P	.	O
+LOC100859230_A0A1D5P503_Gallus	O	O	.

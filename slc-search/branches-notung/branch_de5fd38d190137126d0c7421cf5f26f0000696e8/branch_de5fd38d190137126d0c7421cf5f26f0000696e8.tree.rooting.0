@@ -1,0 +1,3 @@
+(((LMBRD1_Q9NUN5_Homo:0.02578841[&&NHX:S=Homo:Nset=<Homo>:H=N],(Lmbrd1_Q8K0B2_Mus:0.00776351[&&NHX:S=Mus:Nset=<Mus>:H=N],Lmbrd1_Q6AZ61_Rattus:0.01080647[&&NHX:S=Rattus:Nset=<Rattus>:H=N])n8:0.03973605[&&NHX:S=n20:Nset=<Mus@Rattus>:H=N:D=N:B=1.0])n4:0.09481223[&&NHX:S=n22:Nset=<Homo@n20>:H=N:D=N:B=1.0],LMBRD1_Q5ZI05_Gallus:0.12168891[&&NHX:S=Gallus:Nset=<Gallus>:H=N])n2:0.342372[&&NHX:S=n24:Nset=<n22@Gallus>:H=N:D=N],lmbrd1_Q5PR61_Danio:0.342372[&&NHX:S=Danio:Nset=<Danio>:H=N])n141[&&NHX:S=n26:Nset=<Danio@n24>:H=N:D=N];
+[&&NOTUNG-SPECIES-TREE((((Mus:4.0,Rattus:4.0)n20:4.0,Homo:4.0)n22:4.0,Gallus:4.0)n24:4.0,Danio:4.0)n26]
+[&&NOTUNG-PARAMETERS:VERSION=2.7:SPECIESTAG=POST:CL=1.0:CD=1.5:CCD=0.0:CT=3.0]

@@ -1,0 +1,42 @@
+Statistics for: branch_f82ffa3c38487c9364b7b1a1a874c6f4490ff7d3.tree
+
+Reconciliation Information
+- Duplications: 0
+- Co-Divergences: 0
+- Transfers: 0
+- Losses: 0
+- Number of Temporally Feasible Optimal Solutions: N/A
+
+
+Tree Without Losses
+- Total nodes: 5
+- Internal nodes: 2
+- Leaf nodes: 3
+- Polytomies: 0
+- Size of largest polytomy: 0
+- Height: 2
+
+Tree With Losses
+- Total nodes: 5
+- Internal nodes: 2
+- Leaf nodes: 3
+- Size of largest polytomy: 0
+- Height: 2
+
+
+This gene tree is reconciled.
+ - In GUI mode, the pruned species tree can be viewed
+   by clicking "Show Species Tree" in the
+   Reconcile Panel.
+ - From the command line, the pruned species tree can
+   be saved with the option --stpruned.
+
+Statistics for: 7species.stree
+
+- Total nodes: 5
+- Internal nodes: 2
+- Leaf nodes: 3
+- Polytomies: 0
+- Size of largest polytomy: 0
+- Height: 2
+

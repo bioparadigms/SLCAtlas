@@ -1,0 +1,35 @@
+name: pyweb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.1
+  - cherrypy
+  - jinja2
+  - mysql-connector-python
+  - ipython
+  - matplotlib
+  - markdown
+  - requests
+  - beautifulsoup4
+  - html5lib
+  - biopython
+  - pandas
+  - lxml
+  - networkx
+  - scipy
+  - jupyter
+  - jupyter_nbextensions_configurator
+  - ipyparallel
+  - seaborn
+  - openpyxl
+  - xlsxwriter
+  - pygraphviz
+  - xlrd
+  - dendropy
+  - matplotlib-venn
+  - robobrowser
+  - nbconvert
+  - jupyter_contrib_nbextensions
+  - tqdm
+prefix: /home/ggyimesi/anaconda3/envs/pyweb

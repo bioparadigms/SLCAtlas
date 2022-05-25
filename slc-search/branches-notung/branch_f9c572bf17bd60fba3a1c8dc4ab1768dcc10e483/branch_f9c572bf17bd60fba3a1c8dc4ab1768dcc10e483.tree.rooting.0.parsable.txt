@@ -1,0 +1,20 @@
+1.5	1	0	0	0	3	5	3	2	1	true	n18	n18	100,100	1	1	1	1.5	0.0	3.0	1.0
+Cost	nD	nCD	nT	nL	|L(G)|	|G|	|S|	h(G)	h(S)	isRoot	 root(G)	 root(S)	minEW,maxEW	Roots	Cand	Feas	cD	cCD	cT	cL
+
+
+#D	Gene Node	L. Bound	U. Bound
+#D	n4	Danio	n18
+
+#LinS	Species	Losses
+#L	n18	0
+#L	Gallus	0
+#L	Danio	0
+
+#S	Species	Dups	cDs	Trans_from	Trans_to	Losses
+#S	n18	0	0	0	0	0
+#S	Gallus	0	0	0	0	0
+#S	Danio	1	0	0	0	0
+
+#R	SpeciesAtRoot
+#R	n18
+
